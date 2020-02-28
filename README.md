@@ -1,6 +1,6 @@
 # ECE726_project
 
-This repository contains all the code files for the implementation of an FHLQT controller with an LQG observer and a discounted IHLQT controllers using an actor-critic reinforcement learning algorithm on a linearized plant-model of the quadcoptor system.
+This repository contains all the code files for the implementation of an FHLQT controller with an LQG observer and discounted IHLQT controllers using an actor-critic reinforcement learning algorithm on a linearized plant-model of the quadcoptor system.
 
 The FHLQT controller is implemented both ways - by augmenting the trajectory generator dynamics to the plant dynamics and solving the FHLQR problem; and also by solving the regular FHLQT problem without augmentation. The LQG observer is implemented by solving the observer ARE.
 
